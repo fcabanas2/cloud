@@ -3,7 +3,7 @@ locals {
 }
 
 resource "random_string" "sufijo-s3" {
-  length  = 8
+  length  = 9
   special = false
   upper   = false
 }
